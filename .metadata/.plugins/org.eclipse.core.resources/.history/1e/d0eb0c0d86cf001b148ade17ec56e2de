@@ -3,7 +3,6 @@ package demo;
 import java.util.ArrayList;
 
 import entity.Member;
-import service.MemberService;
 import service.MemberServiceImpl;
 
 public class Main {
