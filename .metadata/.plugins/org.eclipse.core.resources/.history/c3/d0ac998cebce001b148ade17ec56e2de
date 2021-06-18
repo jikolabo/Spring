@@ -1,7 +1,0 @@
-package service;
-
-public interface MemberService {
-	
-	String greet(int i);
-
-}
