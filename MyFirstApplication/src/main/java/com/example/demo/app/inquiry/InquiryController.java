@@ -16,6 +16,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.example.demo.entity.Inquiry;
 import com.example.demo.service.InquiryService;
+import com.example.demo.service.SurveyService;
 
 @Controller
 @RequestMapping("/inquiry")
@@ -27,6 +28,8 @@ public class InquiryController {
 	public InquiryController(InquiryService inquiryService) {
 		this.inquiryService = inquiryService;
 	}
+	
+	
 	
 	@GetMapping
 	public String index(Model model) {
