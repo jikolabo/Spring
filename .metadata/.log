@@ -6701,3 +6701,45 @@ Binding(COMMAND+SHIFT+C,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-22 00:05:22.705
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.stZPylGB => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-22 01:00:21.142
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-22 01:00:21.142
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6c9008e6[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=548)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-22 01:00:21.143
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-22 01:00:23.113
+!MESSAGE Boot LS startup time from start to initialized: 1970ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-22 01:00:23.171
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SjIAxVJoisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-22 01:00:23.172
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-22 01:00:23.172
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-22 01:00:23.172
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-22 01:00:23.172
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SjIAxVJo => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-22 01:00:23.172
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-22 01:00:23.174
+!MESSAGE classpath=81 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-22 01:00:23.175
+!MESSAGE buffering callback sts4.classpath.SjIAxVJo MyFirstApplication false 81
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-22 01:00:23.175
+!MESSAGE executing callback sts4.classpath.SjIAxVJo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-06-22 01:00:23.457
+!MESSAGE executing callback sts4.classpath.SjIAxVJo SUCCESS [done]
